@@ -1,0 +1,12 @@
+Set up)
+1. mkdir react-aibnb_experience
+1.5. cd react-aibnb_experience
+2. yarn create react-app .
+3. Copiar archivos prettier y prettier prettierignore
+4. Añadir dependencias:
+    yarn add --dev prettier prettier-plugin-solidity 
+5. Copiar el ./public/index.html de otro proyecto
+
+
+Posibles problemas:
+Si no se actualiza en el navegador lo que estas programando, revisa que estes importando reactDom desde "reactDom" y no desde "reactDom/client"
